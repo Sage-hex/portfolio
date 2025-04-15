@@ -1,0 +1,23 @@
+import { createBrowserRouter } from "react-router-dom";
+import Home from "../pages/Home";
+import Mentorship from "../pages/Mentorship";
+import Portfolio from "../pages/Portfolio";
+import Snippet from "../pages/Snippet";
+import Blog from "../pages/Blog";
+import Layout from "../components/layouts/Layout";
+
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      // { path: "/", element: <Home /> },
+      { index: true, element: <Home /> }, 
+      { path: "mentorship", element: <Mentorship /> },
+      { path: "portfolio", element: <Portfolio /> },
+      { path: "snippet", element: <Snippet /> },
+      { path: "blog", element: <Blog /> },
+    ],
+  },
+]);
+
+export default router;
