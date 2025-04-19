@@ -88,7 +88,7 @@ const projects = [
 
 const FeaturedProjects = () => {
   return (
-    <div className=" bg-white text-black dark:bg-[#1a1a1a] dark:text-white transition-colors duration-500 px-6 py-16 space-y-10">
+    <div className=" text-black dark:text-white transition-colors duration-500 px-6 py-16 space-y-10">
       <h2 className="text-3xl font-bold">Featured Project</h2>
       <div className="space-y-14">
         {projects.map((project) => (

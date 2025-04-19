@@ -30,9 +30,9 @@ import WhatIDo from "../components/sections/WhatIDo";
 const Home = () => {
   return (
     // <main className="bg-[#1e1e1e] w-full md:w-[85%] flex flex-col items-center justify-center min-h-screen text-white font-sans">
-      <main className="flex flex-col items-center justify-center min-h-screen bg-[#1E1F26] text-white font-sans transition-colors duration-500">
+      <main className="flex flex-col w-[90%] items-center justify-center min-h-screen  text-white font-sans transition-colors duration-500">
       <HeroSection/>
-      <WhatIDoSection/>
+      {/* <WhatIDoSection/> */}
       <FeaturedProjects/>
       <CodeSnippet/>
       <BlogPreview/>
