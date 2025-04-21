@@ -36,7 +36,7 @@ const snippets = [
 const CodeSnippet = () => {
   return (
     <section className="mt-20 px-4 md:px-10">
-      <h2 className="text-3xl font-bold mb-6 text-white">Code Snippet</h2>
+      <h2 className="text-2xl text-center md:text-left dark:text-white md:text-3xl font-bold mb-6 text-black">Code Snippet</h2>
       <div className="grid md:grid-cols-2 gap-6">
         {snippets.map((s, i) => (
           <SnippetCard

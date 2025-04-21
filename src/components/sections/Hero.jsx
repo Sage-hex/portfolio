@@ -463,13 +463,13 @@ const HeroSection = () => {
             </div>
             
             {/* Gradient Text */}
-            <h1 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-400 to-blue-400">
+            <h1 className="text-xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-400 to-blue-400 ">
               Hi I'm Naufaldi, a special human with some ability to love learning and working on teamwork.
             </h1>
             
             {/* Biography Section */}
             <div className="text-left w-full mt-2">
-              <h2 className="font-medium text-lg mb-2 font-semibold text-black dark:text-white">Biography</h2>
+              <h2 className="font-medium text-center md:text-left text-2xl mb-2 font-semibold text-black dark:text-white">Biography</h2>
               <p className="text-gray-400 text-sm">
                 Getting Buff +1 for learning, Buff +2 for documentation and more buff on managing team. Excited on <span className="text-blue-500">React</span>, <span className="text-blue-300">UX Research</span> and <span className="text-green-400">Agile Development</span>.
               </p>
@@ -477,7 +477,7 @@ const HeroSection = () => {
           </div>
         ) : (
           /* Desktop Layout */
-          <div className="border-2 border-green-400 max-w-7xl mx-auto w-full">
+          <div className="max-w-7xl mx-auto w-full">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-400 to-blue-500 mb-16">
               Hi I'm Emmanuel, a special human<br />
               with some ability to love learning<br />

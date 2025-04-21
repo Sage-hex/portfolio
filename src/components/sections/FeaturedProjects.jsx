@@ -89,7 +89,7 @@ const projects = [
 const FeaturedProjects = () => {
   return (
     <div className=" text-black dark:text-white transition-colors duration-500 px-6 py-16 space-y-10">
-      <h2 className="text-3xl font-bold">Featured Project</h2>
+      <h2 className="text-2xl md:text-3xl font-bold">Featured Project</h2>
       <div className="space-y-14">
         {projects.map((project) => (
           <div
@@ -121,10 +121,10 @@ const FeaturedProjects = () => {
               <p className="uppercase text-sm text-gray-400 dark:text-gray-400">
                 {project.category}
               </p>
-              <h3 className="text-2xl font-bold leading-snug">
+              <h3 className="text-lg md:text-2xl font-bold leading-snug">
                 {project.title}
               </h3>
-              <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+              <p className="text-gray-700 dark:text-gray-300 text-sm md:text-lg leading-relaxed">
                 {project.description}
               </p>
             </div>

@@ -134,7 +134,7 @@ import MobileNav from "./MobileNav"; // Make sure this path is correct
 
 const Layout = () => {
   return (
-    <div className="min-h-screen bg-white text-black dark:bg-background dark:text-white transition-colors duration-500 relative">
+    <div className="min-h-screen bg-white text-black dark:bg-background dark:bg-[#0E0E0E] dark:text-white transition-colors duration-500 relative">
       {/* Glowing Bubbles */}
       
       {/* Top Left Bubble */}

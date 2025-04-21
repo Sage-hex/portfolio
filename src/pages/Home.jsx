@@ -32,10 +32,10 @@ const Home = () => {
     // <main className="bg-[#1e1e1e] w-full md:w-[85%] flex flex-col items-center justify-center min-h-screen text-white font-sans">
       <main className="flex flex-col w-[90%] items-center justify-center min-h-screen  text-white font-sans transition-colors duration-500">
       <HeroSection/>
-      {/* <WhatIDoSection/> */}
+      <WhatIDoSection/>
       <FeaturedProjects/>
       <CodeSnippet/>
-      <BlogPreview/>
+      {/* <BlogPreview/> */}
     </main>
   );
 };
