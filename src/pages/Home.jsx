@@ -35,7 +35,7 @@ const Home = () => {
       {/* <WhatIDoSection/> */}
       <FeaturedProjects/>
       <CodeSnippet/>
-      <BlogPreview/>
+      {/* <BlogPreview/> */}
     </main>
   );
 };
