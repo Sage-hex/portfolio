@@ -1,5 +1,16 @@
+import { useState } from "react";
+import ContactModal from "./ContactModal";
 
   const WeeklySchedule = () => {
+
+    const [modalOpen, setModalOpen] = useState(false);
+    const openModal = () => {
+      setModalOpen(true);
+    }
+
+    const closeModal =() => {
+      setModalOpen(false);
+    }
   const weeks = [
     {
       id: 1,
@@ -32,9 +43,10 @@
             </div>
           ))}
         </div>
-        <button className="flex items-center gap-2 bg-gray-200 dark:bg-[#363a4f] text-gray-800 dark:text-gray-300 px-4 py-2 rounded mt-6 text-sm">
+        <button className="flex items-center gap-2 bg-gray-200 dark:bg-[#363a4f] text-gray-800 dark:text-gray-300 px-4 py-2 rounded mt-6 text-sm" onClick={openModal}>
           <span>📋</span> Read more
         </button>
+        <ContactModal isOpen={modalOpen} closeModal={closeModal}/>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { FaBookOpen, FaVideo, FaHandPointRight } from 'react-icons/fa';
+import ContactForm from './ContactModal';
 // import { ThemeContext } from '../../utils/ThemeContext';
 
 const BenefitsSection = () => {
@@ -115,7 +116,7 @@ const BenefitsSection = () => {
               </text>
             </svg>
           </div>
-          
+      
         </div>
 
         <div className="md:w-2/3">
