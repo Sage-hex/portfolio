@@ -103,7 +103,7 @@ const ContactModal = ({ isOpen, closeModal }) => {
 
   return (
     <div className="fixed inset-0 bg-black/50 z-50 flex justify-center items-center">
-      <div className="rainbow-border relative p-[2px] rounded-lg max-w-lg w-full">
+      <div className="rainbow-border relative p-[2px] rounded-lg max-w-lg w-[90%]">
         <div className="bg-white dark:bg-[#1a1a1a] text-gray-900 dark:text-white p-8 rounded-lg relative z-10">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-2xl font-bold">Contact Me</h2>
