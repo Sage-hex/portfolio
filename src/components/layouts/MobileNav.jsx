@@ -49,7 +49,7 @@ const navItems = [
   { name: "Home", path: "/", icon: <AiFillHome size={20} /> },
   { name: "Mentorship", path: "/mentorship", icon: <BsCheckSquareFill size={20} /> },
   { name: "Portfolio", path: "/portfolio", icon: <CiBookmarkCheck  size={20} /> },
-  { name: "Snippet", path: "/snippet", icon: <RiCodeSSlashFill size={20} /> },
+  { name: "Snippet", path: "/snippets", icon: <RiCodeSSlashFill size={20} /> },
   { name: "More", path: "/more", icon: <HiOutlineDotsHorizontal size={20} /> },
 ];
 

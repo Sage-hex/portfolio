@@ -111,7 +111,7 @@
 import { NavLink } from "react-router-dom";
 import ThemeToggle from "../../utils/ThemeToggle"; // Make sure the path is correct
 
-const navItems = ["Home", "Mentorship", "Portfolio", "Snippet", "Blog"];
+const navItems = ["Home", "Mentorship", "Portfolio", "Snippets", "Blog"];
 
 const Header = () => {
   return (

@@ -3,55 +3,61 @@ import { SiTailwindcss, SiHtml5, SiNextdotjs } from "react-icons/si";
 import { FaCodepen } from "react-icons/fa";
 import { LuMenu } from "react-icons/lu";
 import SnippetCard from "./SnippetCards";
+import { snippets } from "../data/snippetsData";
+import { Link } from "react-router-dom";
 
-const snippets = [
-  {
-    title: "Nextjs Starter",
-    description: "A dead simple for nextjs project.",
-    icons: [SiTailwindcss, SiNextdotjs],
-    stars: 8,
-  },
-  {
-    title: "Frontend Starter Kit",
-    description:
-      "A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.",
-    icons: [SiTailwindcss, FaCodepen, SiHtml5],
-    stars: 12,
-  },
-  {
-    title: "Nextjs Starter",
-    description: "A dead simple for nextjs project.",
-    icons: [SiTailwindcss, SiNextdotjs],
-    stars: 8,
-  },
-  {
-    title: "Frontend Starter Kit",
-    description:
-      "A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.",
-    icons: [SiTailwindcss, FaCodepen, SiHtml5],
-    stars: 12,
-  },
-];
+// const snippets = [
+//   {
+//     title: "Nextjs Starter",
+//     description: "A dead simple for nextjs project.",
+//     icons: [SiTailwindcss, SiNextdotjs],
+//     stars: 8,
+//   },
+//   {
+//     title: "Frontend Starter Kit",
+//     description:
+//       "A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.",
+//     icons: [SiTailwindcss, FaCodepen, SiHtml5],
+//     stars: 12,
+//   },
+//   {
+//     title: "Nextjs Starter",
+//     description: "A dead simple for nextjs project.",
+//     icons: [SiTailwindcss, SiNextdotjs],
+//     stars: 8,
+//   },
+//   {
+//     title: "Frontend Starter Kit",
+//     description:
+//       "A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.",
+//     icons: [SiTailwindcss, FaCodepen, SiHtml5],
+//     stars: 12,
+//   },
+// ];
 
 const CodeSnippet = () => {
   return (
     <section className="mt-20 px-4 md:px-10">
+      
       <h2 className="text-2xl text-center md:text-left dark:text-white md:text-3xl font-bold mb-6 text-black">Code Snippet</h2>
       <div className="grid md:grid-cols-2 gap-6">
-        {snippets.map((s, i) => (
+        {snippets.slice(0,4).map((s, i) => (
           <SnippetCard
             key={i}
             title={s.title}
             description={s.description}
             icons={s.icons}
             stars={s.stars}
+            link={s.link}
           />
         ))}
       </div>
       <div className="mt-6">
+      <Link to="/snippets">
         <button className="flex items-center gap-2 text-sm bg-[#2C2E3E] text-white px-4 py-2 rounded-lg">
           <LuMenu /> See More
         </button>
+        </Link>
       </div>
     </section>
   );
