@@ -107,7 +107,7 @@ const ContactModal = ({ isOpen, closeModal }) => {
         <div className="bg-white dark:bg-[#1a1a1a] text-gray-900 dark:text-white p-8 rounded-lg relative z-10">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-2xl font-bold">Contact Me</h2>
-            <button onClick={closeModal} className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300">
+            <button onClick={closeModal} className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 text-3xl text-red-500">
               X
             </button>
           </div>
