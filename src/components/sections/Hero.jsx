@@ -394,7 +394,7 @@ const HeroSection = () => {
       <div className="relative z-10">
         {/* Mobile Layout */}
         {isMobile ? (
-          <div className="max-w-md border-2 border-green-500 mx-auto flex px-4 py-4 flex-col items-center text-center">
+          <div className="max-w-md mx-auto flex px-4 py-4 flex-col items-center text-center">
             {/* Avatar with gradient border */}
             <div className="relative w-20 h-20 mb-4">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 via-teal-400 to-green-400"></div>
@@ -435,7 +435,7 @@ const HeroSection = () => {
           </div>
         ) : (
           /* Desktop Layout */
-          <div className="max-w-7xl mx-auto w-full border-2 border-red-200">
+          <div className="max-w-7xl mx-auto w-full">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-teal-400 to-blue-500 mb-16">
               Hi I'm Emmanuel, a special human<br />
               with some ability to love learning<br />
