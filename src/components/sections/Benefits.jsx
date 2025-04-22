@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { FaBookOpen, FaVideo, FaHandPointRight } from 'react-icons/fa';
-import { ThemeContext } from '../../utils/ThemeContext';
+// import { ThemeContext } from '../../utils/ThemeContext';
 
 const BenefitsSection = () => {
-    const { theme } = useContext(ThemeContext);
+    // const { theme } = useContext(ThemeContext);
     // const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "dark");
     // const [mounted, setMounted] = useState(false); // ensure DOM is ready
     
@@ -71,7 +71,6 @@ const BenefitsSection = () => {
       <div className="md:flex md:items-start md:gap-12">
         <div className="md:w-1/3 mb-8 md:mb-0">
           <h2 className="text-3xl font-bold mb-4 text-gray-700 dark:text-gray-100">Mentorship Benefits</h2>
-          {theme !== 'dark' ? (
             <div className="flex justify-center items-center mt-16">
  
             <svg
@@ -116,12 +115,7 @@ const BenefitsSection = () => {
               </text>
             </svg>
           </div>
-          ) : (
-            // Placeholder for dark mode image (if needed)
-            <div className='mt-14 w-76 h-56 bg-black'>
-              <img src="/strength.png" alt="" className='w-full h-full object-contain' />
-            </div>
-          )}
+          
         </div>
 
         <div className="md:w-2/3">

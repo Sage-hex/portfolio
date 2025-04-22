@@ -199,7 +199,7 @@ import React from 'react';
 import MentorshipHeader from '../components/sections/MentorshipHeader';
 import WeeklySchedule from '../components/sections/WeeklySchedule';
 import BenefitsSection from '../components/sections/Benefits';
-import { ThemeProvider } from '../utils/ThemeContext';
+// import { ThemeProvider } from '../utils/ThemeContext';
 
 
 const MentorshipPage = () => {
@@ -212,9 +212,9 @@ const MentorshipPage = () => {
       <WeeklySchedule />
 
       {/* Benefits Section */}
-      <ThemeProvider>
+      {/* <ThemeProvider> */}
       <BenefitsSection/>
-      </ThemeProvider>
+      {/* </ThemeProvider> */}
     </div>
   );
 };
