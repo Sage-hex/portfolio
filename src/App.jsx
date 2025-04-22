@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import router from "./routes/router";
 
 const App = () => {
+  // Initialize AOS for animations
   useEffect(() => {
     AOS.init({
       duration: 1000,

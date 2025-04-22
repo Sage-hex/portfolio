@@ -16,19 +16,8 @@ const Snippet = () => {
     <section className="w-full bg-gray-100 dark:bg-[#0E0E0E] text-gray-900 dark:text-white py-16 px-4 md:px-10 min-h-screen">
       <div className="max-w-5xl mx-auto flex flex-col">
         {/* Header */}
-        <h1
-          className="text-3xl font-bold mb-2 text-gray-900 dark:text-white"
-          data-aos="fade-down" // Add animation here
-        >
-          Code Snippet
-        </h1>
-        <p
-          className="text-sm text-gray-600 dark:text-gray-400 mb-6"
-          data-aos="fade-down" // Add animation here
-          data-aos-delay="200"
-        >
-          Search code snippet
-        </p>
+        <h1 className="text-3xl font-bold mb-2 text-gray-900 dark:text-white">Code Snippet</h1>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Search code snippet</p>
 
         {/* Search Input */}
         <div className="relative mb-10">
@@ -46,19 +35,14 @@ const Snippet = () => {
         {filteredSnippets.length > 0 ? (
           <div className="grid md:grid-cols-2 gap-6">
             {filteredSnippets.map((snippet, index) => (
-              <div
+              <SnippetCard
                 key={index}
-                data-aos="fade-up" // Animation applied here
-                data-aos-delay={`${index * 100}`} // Add delay for each snippet
-              >
-                <SnippetCard
-                  title={snippet.title}
-                  description={snippet.description}
-                  icons={snippet.icons}
-                  stars={snippet.stars}
-                  link={snippet.link}
-                />
-              </div>
+                title={snippet.title}
+                description={snippet.description}
+                icons={snippet.icons}
+                stars={snippet.stars}
+                link={snippet.link}
+              />
             ))}
           </div>
         ) : (
