@@ -2,7 +2,7 @@ import { FaCog, FaCalendarAlt, FaArrowRight } from 'react-icons/fa';
 
 const WhatIDoSection = () => {
   return (
-    <div className="w-full text-black dark:text-white transition-colors duration-500 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="w-full border-2 border-red-300 text-black dark:text-white transition-colors duration-500 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-16 items-center">
         {/* Left Section */}
         <div>
