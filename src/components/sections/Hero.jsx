@@ -226,7 +226,7 @@ const HeroSection = () => {
             >
 
               Hi I'm Emmanuel,  a software dev<br />
-              who loves to build and learn new things<br />
+              who loves to build and learn new things
               while helping others grow.
             </h1>
 
