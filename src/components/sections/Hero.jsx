@@ -205,7 +205,7 @@ const HeroSection = () => {
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              Hi I'm Naufaldi, a special human with some ability to love learning and working on teamwork.
+             Hi I'm Emmanuel, a software dev who loves to build and learn new things while helping others grow.
             </h1>
 
             {/* Biography Section */}
@@ -224,9 +224,10 @@ const HeroSection = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              Hi I'm Emmanuel, a special human<br />
-              with some ability to love learning<br />
-              and working on teamwork.
+
+              Hi I'm Emmanuel,  a software dev<br />
+              who loves to build and learn new things<br />
+              while helping others grow.
             </h1>
 
             <div className="flex flex-wrap md:flex-nowrap gap-8 md:gap-24">

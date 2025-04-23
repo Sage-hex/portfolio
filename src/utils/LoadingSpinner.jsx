@@ -60,7 +60,7 @@ const LoadingText = () => {
 
   return (
     <div className="fixed inset-0 bg-black/80 z-50 flex justify-center items-center">
-      <div className="w-auto">
+      <div className="w-auto font-cursive">
         <RainbowText text={text} />
       </div>
     </div>
