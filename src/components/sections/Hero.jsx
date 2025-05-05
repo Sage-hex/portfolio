@@ -262,13 +262,13 @@ const HeroSection = () => {
               >
                 <h2 className="font-bold text-lg mb-2 text-black dark:text-white">Let's connect</h2>
                 <div className="flex gap-5 text-4xl">
-                  <a href="#" aria-label="Instagram" className="dark:text-[#f5f5f5]  text-[#0E0E0E] hover:text-blue-400 transition-colors">
+                  <a href="https://www.instagram.com/sage.pixel" aria-label="Instagram" className="dark:text-[#f5f5f5]  text-[#0E0E0E] hover:text-blue-400 transition-colors">
                     <FaInstagram />
                   </a>
-                  <a href="#" aria-label="Twitter" className="dark:text-[#f5f5f5]  text-[#0E0E0E] hover:text-blue-400 transition-colors">
+                  <a href="https://x.com/nuelsage" aria-label="Twitter" className="dark:text-[#f5f5f5]  text-[#0E0E0E] hover:text-blue-400 transition-colors">
                     <FaTwitter />
                   </a>
-                  <a href="#" aria-label="LinkedIn" className="dark:text-[#f5f5f5]  text-[#0E0E0E] hover:text-blue-400 transition-colors">
+                  <a href="https://www.linkedin.com/in/nuelsage/" aria-label="LinkedIn" className="dark:text-[#f5f5f5]  text-[#0E0E0E] hover:text-blue-400 transition-colors">
                     <FaLinkedin />
                   </a>
                 </div>
