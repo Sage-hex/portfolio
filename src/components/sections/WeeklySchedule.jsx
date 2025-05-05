@@ -113,7 +113,7 @@ const WeeklySchedule = () => {
             data-aos="zoom-in"
             data-aos-delay="400"
           >
-            <span>📋</span> Read more
+            <span>📋</span> Contact
           </button>
         </div>
       </div>
