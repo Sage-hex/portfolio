@@ -188,13 +188,13 @@ const HeroSection = () => {
               data-aos="fade-up"
               data-aos-duration="1500"
             >
-              <a href="#" aria-label="Instagram" className="text-gray-300 dark:text-[#f5f5f5]  text-[#0E0E0E]">
+              <a href="https://www.instagram.com/sage.pixel" aria-label="Instagram" className="text-gray-300 dark:text-[#f5f5f5]  text-[#0E0E0E]">
                 <FaInstagram />
               </a>
-              <a href="#" aria-label="Twitter" className="text-gray-300 dark:text-[#f5f5f5]  text-[#0E0E0E]">
+              <a href="https://x.com/nuelsage" aria-label="Twitter" className="text-gray-300 dark:text-[#f5f5f5]  text-[#0E0E0E]">
                 <FaTwitter />
               </a>
-              <a href="#" aria-label="LinkedIn" className="text-gray-300 dark:text-[#f5f5f5]  text-[#0E0E0E]">
+              <a href="https://www.linkedin.com/in/nuelsage/" aria-label="LinkedIn" className="text-gray-300 dark:text-[#f5f5f5]  text-[#0E0E0E]">
                 <FaLinkedin />
               </a>
             </div>
