@@ -108,7 +108,7 @@ const ContactModal = ({ isOpen, closeModal }) => {
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-2xl font-bold">Contact Me</h2>
             <button onClick={closeModal} className="text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 text-3xl text-red-500">
-              X
+            ❌
             </button>
           </div>
           <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Send me a message via WhatsApp or Email.</p>
