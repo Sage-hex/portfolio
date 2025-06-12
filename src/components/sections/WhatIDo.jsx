@@ -67,7 +67,7 @@ const WhatIDoSection = () => {
           <h2 className="text-2xl text-center md:text-left md:text-3xl font-bold mb-4">What I do</h2>
           <p className="text-sm md:text-lg leading-relaxed text-gray-700 dark:text-gray-300 transition-colors duration-500">
             I design and develop modern, scalable web applications as a{' '}
-            <span className="text-green-600 dark:text-green-500 font-semibold">fullstack developer</span>. I also run a mentorship program called{' '}
+            <span className="text-green-600 dark:text-green-500 font-semibold">Fullstack Developer</span>. I also run a mentorship program called{' '}
             <span className="text-blue-600 dark:text-blue-400 font-semibold">MOFON</span>. My focus is delivering both{' '}
             <span className="italic">beauty</span> and{' '}
             <span className="italic">function</span> in every project.

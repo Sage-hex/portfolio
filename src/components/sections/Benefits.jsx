@@ -148,7 +148,8 @@ const benefits = [
     id: 1,
     title: "1:1 Mentorship",
     description:
-      "1:1 Video Call with mentor to discuss, ask questions and consult about frontend mentorship or other related topics",
+      // "1:1 Video Call with mentor to discuss, ask questions and consult about frontend mentorship or other related topics",
+      'Ongoing, personalized guidance through scheduled video calls—ideal for those seeking structured support, progress tracking, feedback on projects, and career advice in frontend development.',
     icon: (
       <div className="bg-[#282c3e] p-3 rounded-full border-2 border-green-400">
         <FaVideo className="text-yellow-400 text-xl" />
@@ -159,7 +160,8 @@ const benefits = [
     id: 2,
     title: "Directed Learning",
     description:
-      "1:1 Video Call with mentor to discuss, ask questions and consult about frontend mentorship or other related topics",
+      // "1:1 Video Call with mentor to discuss, ask questions and consult about frontend mentorship or other related topics",
+      'Focused, one-off sessions via video call aimed at answering specific questions, clearing doubts, or consulting on a particular frontend concept or challenge.',
     icon: (
       <div className="bg-[#282c3e] p-3 rounded-full border-2 border-green-400">
         <FaHandPointRight className="text-yellow-400 text-xl" />
@@ -170,7 +172,8 @@ const benefits = [
     id: 3,
     title: "Syllabus",
     description:
-      "Practical, fundamental syllabus that can be implemented based on case studies",
+      // "Practical, fundamental syllabus that can be implemented based on case studies",
+      'A practical, hands-on curriculum grounded in real-world case studies—designed to build strong frontend fundamentals through applied learning.',
     icon: (
       <div className="bg-[#282c3e] p-3 rounded-full border-2 border-green-400">
         <FaBookOpen className="text-yellow-400 text-xl" />

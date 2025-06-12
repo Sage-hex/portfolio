@@ -94,29 +94,29 @@
 
 
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
-
+import { projects } from '../components/data/projectsData';
 const arrowImage = "/arrow.png";
 
-const projects = [
-  {
-    id: 1,
-    title: 'Bolder Landingpage',
-    category: 'Web Development',
-    description:
-      'Serrow restructured and designed core pages, creating interactive elements that put users in control and allowed them to discover the information needed to make a decision.',
-    image: '/avatar.jpg',
-    isNew: true,
-  },
-  {
-    id: 2,
-    title: 'Kerja Mantul Education Management',
-    category: 'Web Development',
-    description:
-      'Serrow restructured and designed core pages, creating interactive elements that put users in control and allowed them to discover the information needed to make a decision.',
-    image: '/avatar.jpg',
-    isNew: false,
-  },
-];
+// const projects = [
+//   {
+//     id: 1,
+//     title: 'Bolder Landingpage',
+//     category: 'Web Development',
+//     description:
+//       'Serrow restructured and designed core pages, creating interactive elements that put users in control and allowed them to discover the information needed to make a decision.',
+//     image: '/avatar.jpg',
+//     isNew: true,
+//   },
+//   {
+//     id: 2,
+//     title: 'Kerja Mantul Education Management',
+//     category: 'Web Development',
+//     description:
+//       'Serrow restructured and designed core pages, creating interactive elements that put users in control and allowed them to discover the information needed to make a decision.',
+//     image: '/avatar.jpg',
+//     isNew: false,
+//   },
+// ];
 
 const Portfolio = () => {
   return (
@@ -160,7 +160,9 @@ const Portfolio = () => {
                 className="w-full h-[180px] object-cover rounded"
               />
               <a
-                href="#"
+                href={project.link}
+                target='_blank'
+                rel='noopener noreferrer'
                 className="absolute top-2 right-2 bg-white text-black p-1 rounded"
               >
                 <FaArrowUpRightFromSquare className="w-4 h-4" />

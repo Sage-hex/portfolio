@@ -1,25 +1,27 @@
 import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
+import { projects } from '../data/projectsData';
+import { Link } from 'react-router-dom';
 
-const projects = [
-  {
-    id: 1,
-    title: 'Bolder Landingpage',
-    category: 'Web Development',
-    description:
-      'Serrow restructured and designed core pages, creating interactive elements that put users in control and allowed them to discover the information needed to make a decision.',
-    image: '/avatar.jpg', // Add this image to your public folder
-    isNew: true,
-  },
-  {
-    id: 2,
-    title: 'Kerja Mantul Education Management',
-    category: 'Web Development',
-    description:
-      'Serrow restructured and designed core pages, creating interactive elements that put users in control and allowed them to discover the information needed to make a decision.',
-    image: '/avatar.jpg', // Add this image to your public folder
-    isNew: false,
-  },
-];
+// const projects = [
+//   {
+//     id: 1,
+//     title: 'Bolder Landingpage',
+//     category: 'Web Development',
+//     description:
+//       'Serrow restructured and designed core pages, creating interactive elements that put users in control and allowed them to discover the information needed to make a decision.',
+//     image: '/avatar.jpg', // Add this image to your public folder
+//     isNew: true,
+//   },
+//   {
+//     id: 2,
+//     title: 'Kerja Mantul Education Management',
+//     category: 'Web Development',
+//     description:
+//       'Serrow restructured and designed core pages, creating interactive elements that put users in control and allowed them to discover the information needed to make a decision.',
+//     image: '/avatar.jpg', // Add this image to your public folder
+//     isNew: false,
+//   },
+// ];
 
 const FeaturedProjects = () => {
   return (
@@ -28,7 +30,7 @@ const FeaturedProjects = () => {
         Featured Project
       </h2>
       <div className="space-y-14">
-        {projects.map((project) => (
+        {projects.slice(0,3).map((project) => (
           <div
             key={project.id}
             className="flex flex-col md:flex-row gap-6 items-start"
@@ -48,7 +50,9 @@ const FeaturedProjects = () => {
                 className="w-full h-[180px] object-cover rounded"
               />
               <a
-                href="#"
+                href={project.link}
+                target='_blank'
+                rel='noopener noreferrer'
                 className="absolute top-2 right-2 bg-white text-black p-1 rounded"
                 data-aos="zoom-in"
                 data-aos-delay="200"
@@ -72,6 +76,8 @@ const FeaturedProjects = () => {
           </div>
         ))}
       </div>
+
+        <Link to="/portfolio">
       <button
         className="mt-4 inline-flex items-center gap-2 text-sm bg-[#2d2e42] text-white px-4 py-2 rounded shadow-sm"
         data-aos="fade-up"
@@ -79,6 +85,7 @@ const FeaturedProjects = () => {
       >
         <span className="text-lg">☰</span> See More
       </button>
+      </Link>
     </div>
   );
 };

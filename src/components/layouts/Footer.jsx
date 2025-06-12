@@ -42,9 +42,9 @@ const Footer = () => {
       <div className="flex flex-col items-center space-y-4">
         <p className="text-sm font-medium text-gray-300 dark:text-[#f5f5f5]  text-[#0E0E0E] text-4xl font-semibold">Follow me on</p>
         <div className="flex space-x-6 text-xl">
-          <a href="#" className="hover:text-gray-400 dark:text-[#f5f5f5]  text-[#0E0E0E] text-3xl "><FaGithub /></a>
-          <a href="#" className="hover:text-gray-400 dark:text-[#f5f5f5]  text-[#0E0E0E] text-3xl "><FaLinkedin /></a>
-          <a href="#" className="hover:text-gray-400 dark:text-[#f5f5f5]  text-[#0E0E0E]  text-3xl"><FaTwitter /></a>
+          <a href="https://www.github.com/sage-hex" className="hover:text-gray-400 dark:text-[#f5f5f5]  text-[#0E0E0E] text-3xl "><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/nuelsage" className="hover:text-gray-400 dark:text-[#f5f5f5]  text-[#0E0E0E] text-3xl "><FaLinkedin /></a>
+          <a href="https://x.com/nuelsage" className="hover:text-gray-400 dark:text-[#f5f5f5]  text-[#0E0E0E]  text-3xl"><FaTwitter /></a>
         </div>
         <p className="text-xs text-gray-500 mt-4 dark:text-[#f5f5f5]  text-[#0E0E0E] ">&copy; {year}</p>
       </div>

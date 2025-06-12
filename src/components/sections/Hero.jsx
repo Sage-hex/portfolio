@@ -171,7 +171,7 @@ const HeroSection = () => {
             data-aos-duration="1000"
           >
             {/* Avatar with gradient border */}
-            <div className="relative w-20 h-20 mb-4" data-aos="zoom-in" data-aos-duration="1000">
+            <div className="relative w-32 h-32 mb-4" data-aos="zoom-in" data-aos-duration="1000">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 via-teal-400 to-green-400"></div>
               <div className="absolute inset-[2px] rounded-full bg-black flex items-center justify-center">
                 <img
@@ -184,11 +184,11 @@ const HeroSection = () => {
 
             {/* Social Media Icons */}
             <div
-              className="flex gap-4 mb-6"
+              className="flex gap-4 mb-6 text-3xl"
               data-aos="fade-up"
               data-aos-duration="1500"
             >
-              <a href="https://www.instagram.com/sage.pixel" aria-label="Instagram" className="text-gray-300 dark:text-[#f5f5f5]  text-[#0E0E0E]">
+              <a href="https://www.instagram.com/sage.pixel" aria-label="Instagram" className="text-gray-300 dark:text-[#f5f5f5]   text-[#0E0E0E]">
                 <FaInstagram />
               </a>
               <a href="https://x.com/nuelsage" aria-label="Twitter" className="text-gray-300 dark:text-[#f5f5f5]  text-[#0E0E0E]">
@@ -210,9 +210,9 @@ const HeroSection = () => {
 
             {/* Biography Section */}
             <div className="text-left w-full mt-2" data-aos="fade-up" data-aos-duration="2500">
-              <h2 className="font-medium text-center md:text-left text-2xl mb-2 font-semibold text-black dark:text-white">Biography</h2>
+              <h2 className="font-medium text-center md:text-left text-2xl mb-2 font-semibold text-black dark:text-white">Dev Buffs 🤓</h2>
               <p className="text-gray-800 dark:text-gray-400 text-sm">
-                Getting Buff +1 for learning, Buff +2 for documentation and more buff on managing team. Excited on <span className="text-blue-500">React</span>, <span className="text-blue-300">UX Research</span> and <span className="text-green-400">Agile Development</span>.
+                Getting Buff +1 for continuous learning, Buff +2 for documentation and stacking more buff on team collaboration. Passionate about building with <span className="text-blue-500">React</span>, <span className="text-blue-300">PHP</span> & <span className="text-yellow-300">Nodejs</span> and <span className="text-green-400">Micosoft Azure</span>.
               </p>
             </div>
           </div>
@@ -245,12 +245,12 @@ const HeroSection = () => {
                 </div>
 
                 <div>
-                  <h2 className="text-2xl mb-2 font-semibold text-black dark:text-white">Biography</h2>
+                  <h2 className="text-2xl mb-2 font-semibold text-black dark:text-white">Dev Buffs Unlocked 🤓</h2>
                   <p className="text-gray-800 dark:text-gray-300 max-w-lg text-lg">
-                    Getting Buff +1 for learning, Buff +2 for documentation and more buff on managing team.
+                    Getting Buff +1 for learning, Buff +2 for documentation and more buff on team collaboration.
                     Excited on <span className="text-blue-500 font-semibold">React</span>, 
-                    <span className="text-blue-300 font-semibold"> UX Research</span> and 
-                    <span className="text-green-400 font-semibold"> Agile Development</span>.
+                    <span className="text-blue-300 font-semibold"> PHP & </span> <span className="text-yellow-300 font-semibold"> Nodejs</span> and 
+                    <span className="text-green-400 font-semibold"> Azure</span>.
                   </p>
                 </div>
               </div>
